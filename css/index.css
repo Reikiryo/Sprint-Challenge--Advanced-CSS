@@ -251,7 +251,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .space-images img {
-    width: 80vw;
+    width: 85vw;
     height: 90vh;
     margin: 0 auto;
     margin-top: 2%;
