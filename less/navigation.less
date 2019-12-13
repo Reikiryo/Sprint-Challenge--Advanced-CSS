@@ -1,1 +1,37 @@
 // Navigation code here
+
+.menu {
+    text-align: center;
+    margin-bottom: 1%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.884);
+
+    position:fixed;
+    top:0;
+
+    @media @phone {
+        margin-bottom: 3%;
+    }
+
+
+    h1 {
+        font-size: 4rem;
+        margin: 1% auto;
+    }
+
+    nav {
+        margin: 0 auto;
+        .flexmix(space-between, center);
+        width: 30%;
+        margin-bottom: 1%;
+
+        @media @phone {
+            width: 80%;
+        }
+    }
+
+    a {
+        font-size: 1.8rem;
+        color: black;
+    }
+}
